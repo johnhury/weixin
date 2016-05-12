@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>404 对不起，页面未找到~！</title>
+<style type="text/css">
+.b1 { width:609px; height:95px; margin:0 auto;  font-family:'微软雅黑'; background:url(http://www.lpsyhfk.com/ErrorPages/logo.jpg) no-repeat; }
+.b2 { width:auto; height:138px;   font-family:'微软雅黑'; background:url(http://www.lpsyhfk.com/ErrorPages/dhbj.jpg) repeat; }
+.b2txt { width:980px; height:50px; margin:0 auto; padding:30px; }
+.b2txt a{ font-size:28px; text-decoration:none;  float:left; color:#FFFFFF; width:150px; text-align:center;   }
+.b3 { width:1002px; height:266px; margin:0 auto;  font-family:'微软雅黑'; background:url(http://www.lpsyhfk.com/ErrorPages/tp.jpg) no-repeat; }
+.b3txt { width:530px; height:50px; padding:130px 0 0 560px;  font-family:'微软雅黑'; }
+.b3txt p{ font-size:24px;  }
+.red { color:#FF0000; }
+.b4 { width:215px; height:103px; margin:0 auto;  }
+</style>
+</head>
+<body >
+<div class="b1"></div>
+<div class="b2">
+      <div class="b2txt"><a    href="http://www.lpsyhfk.com/" title="友好首页" >首页</a><a   href="http://www.lpsyhfk.com/yiyuangkk/" title="医院简介" >医院简介</a><a  href="http://www.lpsyhfk.com/youhaodt/" title="友好动态" >友好动态</a><a  href="http://www.lpsyhfk.com/xjshebei/" title="先进设备" >先进设备</a><a  href="http://www.lpsyhfk.com/zhenliaots/"  title="诊疗特色">诊疗特色</a><a  href="http://www.lpsyhfk.com/yhgy/" title="友好公益" >友好公益</a></div>
+</div>
+<div class="b3">
+      <div class="b3txt">
+            <p><span class="red" id="num">5</span>　秒钟后可返回首页</p>
+      </div>
+</div>
+<div class="b4"><a href="http://www.lpsyhfk.com/" ><img src="http://www.lpsyhfk.com/ErrorPages/404.gif" /></a></div>
+<script type="text/javascript">
+	var num = document.getElementById('num');
+	function re() {
+		num.innerHTML = num.innerHTML-1;
+		if(num.innerHTML<=0) {
+			window.location.href = 'http://www.lpsyhfk.com/';
+		}
+	}
+	window.setInterval(re,1000);
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?a4fd82cfadcb93b261e4a047ab9f5e97";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
